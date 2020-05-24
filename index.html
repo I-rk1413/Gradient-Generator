@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gradient Background</title>
+
+	<!-- Adding fontawesome style tag -->
+
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+	<!-- Adding google fonts -->
+
+	<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Acme&family=Baloo+2:wght@500&display=swap" rel="stylesheet">
+
+	<!-- Adding bootstrap-4 css style -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
+
+    <!-- Adding local CSS script tag -->
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+
+<body id="gradient">
+
+	<!-- Adding link to 3-color gradient generator -->
+
+	<header><a href="3ColorGenerator.html"><p class="link">3 color gradient generator</p></a></header>
+
+
+    <!-- Adding the header file -->
+
+	<h1>Background Generator</h1>
+	<br>
+
+	<!-- Division containing different colorpicker -->
+
+<div class="container">
+	<input class="color1" type="color" name="color1" value="#30C8CF">
+	<input class="color2" type="color" name="color2" value="#ffff00">
+	<br><br><br>
+
+<!--  Making the direction buttons -->
+
+<div class="container list">
+	<button type="button" onclick='direction("top")' class="btn btn-light"><i class='fas'>&#xf062;</i></button>
+    <button type="button" onclick='direction("top right")' class="btn btn-light"><i class='fas rotate'>&#xf062;</i></button>
+	<button type="button" onclick='direction("right")' class="btn btn-light"><i class='fas'>&#xf061;</i></button>
+    <button type="button" onclick='direction("bottom right")' class="btn btn-light"><i class='fas rotate'>&#xf061;</i></button>
+	<button type="button" onclick='direction("bottom")' class="btn btn-light"><i class='fas'>&#xf063;</i></button>
+	<button type="button" onclick='direction("bottom left")' class="btn btn-light"><i class='fas rotate'>&#xf063;</i></button>
+	<button type="button" onclick='direction("left")' class="btn btn-light"><i class='fas'>&#xf060;</i></button>
+	<button type="button" onclick='direction("top left")' class="btn btn-light"><i class='fas rotate'>&#xf060;</i></button>
+	<button type="button" onclick='direction("radial")' class="btn btn-light"><i class='fas'>&#xf0e2;</i></button>
+</div>
+
+
+<!-- division for copying the gradient style -->
+
+
+
+	<br>
+	<p>Current CSS Background</p>
+	<h3 id="h3"></h3> 
+ 
+	
+	<button onclick="myFunction()" class="button" id="copy">
+		<i class="fas fa-clipboard"></i>
+		<span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+	</button>
+	
+
+
+
+<!-- Adding all the script files of bootstrap -->
+</div>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+
+	
+</body>
+</html>

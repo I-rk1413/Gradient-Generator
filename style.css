@@ -1,0 +1,114 @@
+/*Adding styles to HTML and body tags*/
+
+html {
+    height: 100%;
+}
+
+body {
+	font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+   
+    margin: 0;
+    margin-top: 10%;
+	background: linear-gradient(to right, rgb(48, 200, 207), rgb(255, 255, 0)); /* Standard syntax */
+  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/*Adding styles to all the headers and paragraphs*/
+
+.link{
+    float: right;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 15px;
+    letter-spacing:2px;
+    font-weight: 600;
+    text-decoration: none; 
+    color: rgba(0,0,0,.9);
+
+}
+
+
+h1 {
+    font: 600 3.5em 'Acme', sans-serif;;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    width: 100%;
+}
+p{
+    font: 400 2.5em 'Baloo 2', cursive;
+    text-decoration: underline;
+}
+
+h3 {
+	font: 900 1.5em 'Baloo 2', cursive;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+    margin-top: 20px;
+
+}
+
+
+/*Adding transparency to the buttons*/
+
+.btn-light{
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+
+
+
+/*Rotating and styling the icons*/
+
+.rotate{
+    transform: rotate(45deg);
+}
+
+.fas{
+    font-size: 16px;
+    
+    
+
+}
+
+/* Adding a copy buttons and styles in it */
+
+.button{
+    display: inline;
+    border: none;
+    background-color: transparent;
+}
+
+
+  
+ .tooltiptext{
+    display: none;
+   
+ }
+.button:hover .tooltiptext{
+    display: block;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: relative;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    font-size: small;
+    transition: opacity 0.3s;
+}
