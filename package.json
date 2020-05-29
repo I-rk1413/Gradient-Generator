@@ -1,0 +1,20 @@
+{
+  "name": "gradient-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/I-rk1413/Gradient-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/I-rk1413/Gradient-Generator/issues"
+  },
+  "homepage": "https://github.com/I-rk1413/Gradient-Generator#readme",
+  
+}
